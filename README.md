@@ -4,6 +4,10 @@
 
 A Playwright-based browser automation tool with seamless integration for OpenAI and Anthropic AI models.
 
+## Requirements
+
+- Python 3.11 or higher
+
 ## Quick Start
 
 ### Installation
@@ -14,7 +18,13 @@ A Playwright-based browser automation tool with seamless integration for OpenAI 
 pip install browser-use
 ```
 
-2. Install Playwright (optional):
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Install Playwright (optional):
 
 ```bash
 playwright install

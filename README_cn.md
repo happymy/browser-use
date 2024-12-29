@@ -2,6 +2,10 @@
 
 一个基于 Playwright 的浏览器自动化工具，支持与 OpenAI 和 Anthropic 的 AI 模型集成。
 
+## 系统要求
+
+- Python 3.11 或更高版本
+
 ## 快速开始
 
 ### 安装
@@ -12,7 +16,13 @@
 pip install browser-use
 ```
 
-2. 安装 Playwright（可选）：
+2. 安装项目依赖：
+
+```bash
+pip install -r requirements.txt
+```
+
+3. 安装 Playwright（可选）：
 
 ```bash
 playwright install
