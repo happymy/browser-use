@@ -65,7 +65,7 @@ python main.py
 
 ## 视频演示
 
-您可以在 [Bilibili](https://www.bilibili.com/video/BV1s86tYtErS/) 查看项目演示视频。
+您可以在Bilibili [Bilibili](https://www.bilibili.com/video/BV1s86tYtErS/) 查看项目演示视频。
 
 ## 截图展示
 
@@ -77,9 +77,6 @@ python main.py
 <div align="center">
   <b>如果这个项目对您有帮助，欢迎点个 ⭐ 支持一下！</b><br>
   您的每个 star 都是对我们最大的鼓励 💪<br>
-  lixining.com
+
 </div>
 
-## License
-
-[License信息]
