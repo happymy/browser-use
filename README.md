@@ -82,7 +82,7 @@ Contributions are welcome! Please feel free to submit pull requests or open issu
 
 <div align="center">
   <b>Star ⭐ this repo if you find it useful!</b><br>
-  Made with ❤️ by the Browser-Use team
+  thx  Browser-Use team
 </div>
 
 ## Acknowledgments
