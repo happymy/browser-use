@@ -181,8 +181,14 @@ class Agent:
 			)
 			self._last_result = result
 
-			if len(result) > 0 and result[-1].is_done:
-				logger.info(f'📄 Result: {result[-1].extracted_content}')
+			if len(result) > 0:
+				last_result = result[-1]
+				if last_result.is_done and last_result.extracted_content:
+					if "Result:" in last_result.extracted_content:
+						content = last_result.extracted_content.split("Result:", 1)[1].strip()
+					else:
+						content = last_result.extracted_content
+					logger.info(f'📄 Result: {content}')
 
 			self.consecutive_failures = 0
 
@@ -351,6 +357,12 @@ class Agent:
 						if not await self._validate_output():
 							continue
 
+					# 检查最后一个结果是否包含Result
+					if self._last_result and len(self._last_result) > 0:
+						last_result = self._last_result[-1]
+						if last_result.extracted_content and "Result:" in last_result.extracted_content:
+							logger.info(f'📄 Result: {last_result.extracted_content.split("Result:", 1)[1].strip()}')
+					
 					logger.info('✅ Task completed successfully')
 					break
 			else:
