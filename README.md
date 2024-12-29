@@ -108,5 +108,5 @@ thx [browser-use](https://github.com/browser-use/browser-use), an excellent brow
 
 <div align="center">
   <b>If you find this project helpful, please consider giving it a ⭐!</b><br>
-  ❤️ lixining.com
+  ❤️ 
 </div>
