@@ -105,6 +105,8 @@ thx [browser-use](https://github.com/browser-use/browser-use), an excellent brow
 *Browser-use interface showing Baidu Translate with multimodal translation capabilities*
 
 ---
+[![Powered by DartNode](https://dartnode.com/branding/DN-Open-Source-sm.png)](https://dartnode.com "Powered by DartNode - Free VPS for Open Source")
+---
 
 <div align="center">
   <b>If you find this project helpful, please consider giving it a ⭐!</b><br>
